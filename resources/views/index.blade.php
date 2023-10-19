@@ -8,11 +8,9 @@
 </head>
 <body>
     <header class="header" style="background-image: url('{{ asset('resources/views/assets/servers.jpg')}}')">
-        <h1>My Blog</h1>
+        <h1>EduardocDev</h1>
         <nav class="nav">
-            <button onclick="location.href='/'">Home</button>
-            <button onclick="location.href='#About'">About</button>
-            <button onclick="location.href='#Contact'">Contact  </button>
+            <button onclick="location.href='https://eduardocdev.000webhostapp.com/'">About Me</button>
         </nav>
     </header>
 
@@ -21,7 +19,7 @@
         <p>Be Happy! this is a part of my blog, today i will show you how to use this blog</p>
     </main>
 
-    <footer class="footer">
+    <footer class="Contact">
         <p>Copyright &copy; 2023 Eduardo Carmo</p>
     </footer>
 </body>
