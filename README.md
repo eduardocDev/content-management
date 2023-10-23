@@ -1,11 +1,11 @@
 A minimalistic CMS like system created in Laravel 10, to Manage data of my contents in youtube and pinterest to post simple tech tips.
 I make this with two things in mind, first i have mecioned before and second Increment my Laravel Skills.
 
-You need to have Instaled this for use a aprimorate this project
+You need to have Instaled this for use and aprimorate this project
 XAMPP or Anoter web server solution
 PHP 8.2
 Composer 2.5
-And the configuration that que be required by this, the erros logs will guide you haha!
+And the configuration that can be required by this, the erros logs will guide you haha!
 
 To use this you can clone this project and create a .env file inside the project to configure your enverioment.
 
