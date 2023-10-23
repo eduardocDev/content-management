@@ -1,4 +1,4 @@
-A minimalistic CMS like system created in Laravel 10, to Manage data of my contents in youtube and pinterest to post simple tech tips.
+A minimalistic  content like system created in Laravel 10, to Manage personal data of my contents in youtube and pinterest to post simple tech tips.
 I make this with two things in mind, first i have mecioned before and second Increment my Laravel Skills.
 
 You need to have Instaled this for use and aprimorate this project
