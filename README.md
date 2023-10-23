@@ -2,68 +2,25 @@ A minimalistic CMS like system created in Laravel 10, to Manage data of my conte
 I make this with two things in mind, first i have mecioned before and second Increment my Laravel Skills.
 
 You need to have Instaled this for use a aprimorate this project
+XAMPP or Anoter web server solution
 PHP 8.2
-Laravel 10
 Composer 2.5
+And the configuration that que be required by this, the erros logs will guide you haha!
 
-To use this you can clone this project and create a .env file to configurer your enverioment with the following data.
+To use this you can clone this project and create a .env file inside the project to configure your enverioment.
 
-APP_NAME="laravel"
-APP_ENV=local
-APP_KEY=base64:3RVNu7bcGpV/FerOuQ+D673Rv5bHT0SUHdWBMgMU+aU=
-APP_DEBUG=true
-APP_URL=http://localhost
+And after running the XAMPP run in the terminal inside the project like /opt/htdoc/repository/eduardoc-tips the command 
 
-LOG_CHANNEL=stack
-LOG_DEPRECATIONS_CHANNEL=nul
-LOG_LEVEL=debug
+    php artisan serve
 
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=laravel
-DB_USERNAME=root
-DB_PASSWORD=
+if you receive errors like 500 you can need to generate key using
 
-BROADCAST_DRIVER=log
-CACHE_DRIVER=file
-FILESYSTEM_DISK=local
-QUEUE_CONNECTION=sync
-SESSION_DRIVER=file
-SESSION_LIFETIME=120
+    php artisan key:generate
 
-MEMCACHED_HOST=127.0.0.1
+for more information i recommend to explore the documentation of used tools
 
-REDIS_HOST=127.0.0.1
-REDIS_PASSWORD=null
-REDIS_PORT=6379
+https://laravel.com/docs/10.x
+https://www.php.net/docs.php
+https://getcomposer.org/doc/
 
-MAIL_MAILER=smtp
-MAIL_HOST=mailpit
-MAIL_PORT=1025
-MAIL_USERNAME=null
-MAIL_PASSWORD=null
-MAIL_ENCRYPTION=null
-MAIL_FROM_ADDRESS="hello@example.com"
-MAIL_FROM_NAME="${APP_NAME}"
-
-AWS_ACCESS_KEY_ID=
-AWS_SECRET_ACCESS_KEY=
-AWS_DEFAULT_REGION=us-east-1
-AWS_BUCKET=
-AWS_USE_PATH_STYLE_ENDPOINT=false
-
-PUSHER_APP_ID=
-PUSHER_APP_KEY=
-PUSHER_APP_SECRET=
-PUSHER_HOST=
-PUSHER_PORT=443
-PUSHER_SCHEME=https
-PUSHER_APP_CLUSTER=mt1
-
-VITE_APP_NAME="${APP_NAME}"
-VITE_PUSHER_APP_KEY="${PUSHER_APP_KEY}"
-VITE_PUSHER_HOST="${PUSHER_HOST}"
-VITE_PUSHER_PORT="${PUSHER_PORT}"
-VITE_PUSHER_SCHEME="${PUSHER_SCHEME}"
-VITE_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"
+Good Luck! 😄
