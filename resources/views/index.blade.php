@@ -8,7 +8,7 @@
 </head>
 <body>
     <header class="header" style="background-image: url('{{ asset('resources/views/assets/servers.jpg')}}')">
-        <h1>Eduardo Carmo Explains</h1>
+        <h1>EduardocTips</h1>
         <nav class="nav">
             <button onclick="location.href='https://eduardocdev.000webhostapp.com/'">About Me</button>
         </nav>
