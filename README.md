@@ -9,6 +9,8 @@ And the configuration that can be required by this, the erros logs will guide yo
 
 To use this you can clone this project and create a .env file inside the project to configure your enverioment.
 
+change the name of .env.sample for .env 
+
 And after running the XAMPP run in the terminal inside the project like /opt/htdoc/repository/eduardoc-tips the command 
 
     php artisan serve
