@@ -26,3 +26,5 @@ https://www.php.net/docs.php
 https://getcomposer.org/doc/
 
 Good Luck! 😄
+
+beta version 0.0.1
