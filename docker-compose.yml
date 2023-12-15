@@ -1,0 +1,27 @@
+services:
+
+  #APP SERVER 
+  content-management:
+    container_name: content-management
+    build: .
+    volumes:
+      - .:/var/www/html
+    ports:
+      - 9009:80
+    
+  #DATABASE SERVER
+  mysql_db:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: root 
+      MYSQL_DATABASE: content
+    ports:
+      - 3306:3306
+  
+  #PHPMYADMIN
+  phpmyadmin:
+    image: phpmyadmin:latest
+    ports:
+      - 9002:80
+    environment:
+      - PMA_ARBITRARY=1
