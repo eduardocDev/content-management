@@ -17,7 +17,7 @@
     <main class="main">
         <h2>{{($post->title)}}</h2>
         <p>{{($post->post)}}</p>
-        <a href="https:{{($post->youtube)}}">Youtube</a> - <a href="http:{{($post->pinterest)}}">Pinterest</a>
+        <a href="https:{{($post->youtube)}}">Youtube</a> - <a href="https:{{($post->pinterest)}}">Pinterest</a>
     </main>
     @endforeach
     <footer class="Contact">
